@@ -1,0 +1,260 @@
+2021-04-13 09:36:04.606  INFO 13012 --- [restartedMain] c.c.springlearn.SpringLearnApplication   : Starting SpringLearnApplication using Java 11.0.9 on DESKTOP-B5T7CP3 with PID 13012 (C:\Users\admin\eclipse-workspace\spring-learn3\spring-learn\target\classes started by admin in C:\Users\admin\eclipse-workspace\spring-learn3\spring-learn)
+2021-04-13 09:36:04.703 DEBUG 13012 --- [restartedMain] c.c.springlearn.SpringLearnApplication   : Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-04-13 09:36:04.705  INFO 13012 --- [restartedMain] c.c.springlearn.SpringLearnApplication   : No active profile set, falling back to default profiles: default
+2021-04-13 09:36:05.299  INFO 13012 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-13 09:36:05.302  INFO 13012 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-13 09:36:21.410  INFO 13012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9092 (http)
+2021-04-13 09:36:21.513  INFO 13012 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-13 09:36:21.514  INFO 13012 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-13 09:36:21.823  INFO 13012 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-13 09:36:21.825  INFO 13012 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 16520 ms
+2021-04-13 09:36:22.024  INFO 13012 --- [restartedMain] c.c.springlearn.dao.DepartmentDAO        : Start DepartmentDAO constructor
+2021-04-13 09:36:22.716  INFO 13012 --- [restartedMain] c.cognizant.springlearn.dao.EmployeeDAO  : Start EmployeeDAO Constructor
+2021-04-13 09:36:22.833  INFO 13012 --- [restartedMain] c.cognizant.springlearn.dao.EmployeeDAO  : Stop EmployeeDAO Constructor
+2021-04-13 09:36:23.288  INFO 13012 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 09:36:23.867  INFO 13012 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-13 09:36:23.988  INFO 13012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9092 (http) with context path ''
+2021-04-13 09:36:24.018  INFO 13012 --- [restartedMain] c.c.springlearn.SpringLearnApplication   : Started SpringLearnApplication in 21.765 seconds (JVM running for 24.601)
+2021-04-13 09:40:20.165  INFO 13012 --- [http-nio-9092-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-13 09:40:20.168  INFO 13012 --- [http-nio-9092-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-13 09:40:20.174  INFO 13012 --- [http-nio-9092-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2021-04-13 09:40:20.241  INFO 13012 --- [http-nio-9092-exec-2] c.c.s.controller.EmployeeController      : Start getAllEmployees
+2021-04-13 09:40:20.242  INFO 13012 --- [http-nio-9092-exec-2] c.c.springlearn.service.EmployeeService  : Start getAllEmployees
+2021-04-13 09:40:20.243  INFO 13012 --- [http-nio-9092-exec-2] c.cognizant.springlearn.dao.EmployeeDAO  : Start getAllEmployees
+2021-04-13 10:23:50.895  INFO 13012 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-13 10:23:52.036  INFO 13012 --- [restartedMain] c.c.springlearn.SpringLearnApplication   : Starting SpringLearnApplication using Java 11.0.9 on DESKTOP-B5T7CP3 with PID 13012 (C:\Users\admin\eclipse-workspace\spring-learn3\spring-learn\target\classes started by admin in C:\Users\admin\eclipse-workspace\spring-learn3\spring-learn)
+2021-04-13 10:23:52.038 DEBUG 13012 --- [restartedMain] c.c.springlearn.SpringLearnApplication   : Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-04-13 10:23:52.039  INFO 13012 --- [restartedMain] c.c.springlearn.SpringLearnApplication   : No active profile set, falling back to default profiles: default
+2021-04-13 10:23:53.389  INFO 13012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9092 (http)
+2021-04-13 10:23:53.394  INFO 13012 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-13 10:23:53.396  INFO 13012 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-13 10:23:53.577  INFO 13012 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-13 10:23:53.578  INFO 13012 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1523 ms
+2021-04-13 10:23:53.689  INFO 13012 --- [restartedMain] c.c.springlearn.dao.DepartmentDAO        : Start DepartmentDAO constructor
+2021-04-13 10:23:53.944  INFO 13012 --- [restartedMain] c.cognizant.springlearn.dao.EmployeeDAO  : Start EmployeeDAO Constructor
+2021-04-13 10:23:54.072  INFO 13012 --- [restartedMain] c.cognizant.springlearn.dao.EmployeeDAO  : Stop EmployeeDAO Constructor
+2021-04-13 10:23:54.339  INFO 13012 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 10:23:54.509  INFO 13012 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-13 10:23:54.576  INFO 13012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9092 (http) with context path ''
+2021-04-13 10:23:54.596  INFO 13012 --- [restartedMain] c.c.springlearn.SpringLearnApplication   : Started SpringLearnApplication in 2.712 seconds (JVM running for 2875.179)
+2021-04-13 10:23:54.675  INFO 13012 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-04-13 10:25:24.795  INFO 13012 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-13 10:25:25.445  INFO 13012 --- [restartedMain] c.c.springlearn.SpringLearnApplication   : Starting SpringLearnApplication using Java 11.0.9 on DESKTOP-B5T7CP3 with PID 13012 (C:\Users\admin\eclipse-workspace\spring-learn3\spring-learn\target\classes started by admin in C:\Users\admin\eclipse-workspace\spring-learn3\spring-learn)
+2021-04-13 10:25:25.448 DEBUG 13012 --- [restartedMain] c.c.springlearn.SpringLearnApplication   : Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-04-13 10:25:25.449  INFO 13012 --- [restartedMain] c.c.springlearn.SpringLearnApplication   : No active profile set, falling back to default profiles: default
+2021-04-13 10:25:26.203  INFO 13012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9092 (http)
+2021-04-13 10:25:26.207  INFO 13012 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-13 10:25:26.209  INFO 13012 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-13 10:25:26.255  INFO 13012 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-13 10:25:26.256  INFO 13012 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 764 ms
+2021-04-13 10:25:26.270  INFO 13012 --- [restartedMain] c.c.springlearn.dao.DepartmentDAO        : Start DepartmentDAO constructor
+2021-04-13 10:25:26.465  INFO 13012 --- [restartedMain] c.cognizant.springlearn.dao.EmployeeDAO  : Start EmployeeDAO Constructor
+2021-04-13 10:25:26.596  INFO 13012 --- [restartedMain] c.cognizant.springlearn.dao.EmployeeDAO  : Stop EmployeeDAO Constructor
+2021-04-13 10:25:26.750  INFO 13012 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 10:25:26.832  INFO 13012 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-13 10:25:26.855  INFO 13012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9092 (http) with context path ''
+2021-04-13 10:25:26.864  INFO 13012 --- [restartedMain] c.c.springlearn.SpringLearnApplication   : Started SpringLearnApplication in 1.845 seconds (JVM running for 2967.447)
+2021-04-13 10:25:26.867  INFO 13012 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-04-13 10:26:34.169  INFO 13012 --- [Thread-13] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-13 10:26:34.338  INFO 13012 --- [restartedMain] c.c.springlearn.SpringLearnApplication   : Starting SpringLearnApplication using Java 11.0.9 on DESKTOP-B5T7CP3 with PID 13012 (C:\Users\admin\eclipse-workspace\spring-learn3\spring-learn\target\classes started by admin in C:\Users\admin\eclipse-workspace\spring-learn3\spring-learn)
+2021-04-13 10:26:34.340 DEBUG 13012 --- [restartedMain] c.c.springlearn.SpringLearnApplication   : Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-04-13 10:26:34.345  INFO 13012 --- [restartedMain] c.c.springlearn.SpringLearnApplication   : No active profile set, falling back to default profiles: default
+2021-04-13 10:26:35.129  INFO 13012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9092 (http)
+2021-04-13 10:26:35.131  INFO 13012 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-13 10:26:35.132  INFO 13012 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-13 10:26:35.215  INFO 13012 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-13 10:26:35.216  INFO 13012 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 862 ms
+2021-04-13 10:26:35.239  INFO 13012 --- [restartedMain] c.c.springlearn.dao.DepartmentDAO        : Start DepartmentDAO constructor
+2021-04-13 10:26:35.427  INFO 13012 --- [restartedMain] c.cognizant.springlearn.dao.EmployeeDAO  : Start EmployeeDAO Constructor
+2021-04-13 10:26:35.548  INFO 13012 --- [restartedMain] c.cognizant.springlearn.dao.EmployeeDAO  : Stop EmployeeDAO Constructor
+2021-04-13 10:26:35.816  INFO 13012 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 10:26:35.975  INFO 13012 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-13 10:26:35.999  INFO 13012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9092 (http) with context path ''
+2021-04-13 10:26:36.008  INFO 13012 --- [restartedMain] c.c.springlearn.SpringLearnApplication   : Started SpringLearnApplication in 1.762 seconds (JVM running for 3036.592)
+2021-04-13 10:26:36.012  INFO 13012 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-04-13 10:29:26.406  INFO 13012 --- [Thread-18] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-13 10:29:26.608  INFO 13012 --- [restartedMain] c.c.springlearn.SpringLearnApplication   : Starting SpringLearnApplication using Java 11.0.9 on DESKTOP-B5T7CP3 with PID 13012 (C:\Users\admin\eclipse-workspace\spring-learn3\spring-learn\target\classes started by admin in C:\Users\admin\eclipse-workspace\spring-learn3\spring-learn)
+2021-04-13 10:29:26.616 DEBUG 13012 --- [restartedMain] c.c.springlearn.SpringLearnApplication   : Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-04-13 10:29:26.624  INFO 13012 --- [restartedMain] c.c.springlearn.SpringLearnApplication   : No active profile set, falling back to default profiles: default
+2021-04-13 10:29:27.114  INFO 13012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9092 (http)
+2021-04-13 10:29:27.116  INFO 13012 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-13 10:29:27.118  INFO 13012 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-13 10:29:27.161  INFO 13012 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-13 10:29:27.164  INFO 13012 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 536 ms
+2021-04-13 10:29:27.185  INFO 13012 --- [restartedMain] c.c.springlearn.dao.DepartmentDAO        : Start DepartmentDAO constructor
+2021-04-13 10:29:27.269  WARN 13012 --- [restartedMain] o.s.c.s.ClassPathXmlApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeList' defined in class path resource [employee.xml]: Cannot resolve reference to bean 'e1' while setting constructor argument with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'e1' defined in class path resource [employee.xml]: Error setting property values; nested exception is org.springframework.beans.PropertyBatchUpdateException; nested PropertyAccessExceptions (1) are:
+PropertyAccessException 1: org.springframework.beans.MethodInvocationException: Property 'salary' threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Type mismatch: cannot convert from BigDecimal to double
+
+2021-04-13 10:29:27.271  WARN 13012 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'departmentController': Unsatisfied dependency expressed through field 'departmentService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'departmentService': Unsatisfied dependency expressed through field 'departmentDAO'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'departmentDAO' defined in file [C:\Users\admin\eclipse-workspace\spring-learn3\spring-learn\target\classes\com\cognizant\springlearn\dao\DepartmentDAO.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.cognizant.springlearn.dao.DepartmentDAO]: Constructor threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeList' defined in class path resource [employee.xml]: Cannot resolve reference to bean 'e1' while setting constructor argument with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'e1' defined in class path resource [employee.xml]: Error setting property values; nested exception is org.springframework.beans.PropertyBatchUpdateException; nested PropertyAccessExceptions (1) are:
+PropertyAccessException 1: org.springframework.beans.MethodInvocationException: Property 'salary' threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Type mismatch: cannot convert from BigDecimal to double
+
+2021-04-13 10:29:27.274  INFO 13012 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-04-13 10:29:27.403  INFO 13012 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-13 10:29:27.566 ERROR 13012 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'departmentController': Unsatisfied dependency expressed through field 'departmentService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'departmentService': Unsatisfied dependency expressed through field 'departmentDAO'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'departmentDAO' defined in file [C:\Users\admin\eclipse-workspace\spring-learn3\spring-learn\target\classes\com\cognizant\springlearn\dao\DepartmentDAO.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.cognizant.springlearn.dao.DepartmentDAO]: Constructor threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeList' defined in class path resource [employee.xml]: Cannot resolve reference to bean 'e1' while setting constructor argument with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'e1' defined in class path resource [employee.xml]: Error setting property values; nested exception is org.springframework.beans.PropertyBatchUpdateException; nested PropertyAccessExceptions (1) are:
+PropertyAccessException 1: org.springframework.beans.MethodInvocationException: Property 'salary' threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Type mismatch: cannot convert from BigDecimal to double
+
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.5.jar:5.3.5]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.5.jar:5.3.5]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144) ~[spring-boot-2.4.4.jar:2.4.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:769) ~[spring-boot-2.4.4.jar:2.4.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761) ~[spring-boot-2.4.4.jar:2.4.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426) ~[spring-boot-2.4.4.jar:2.4.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326) ~[spring-boot-2.4.4.jar:2.4.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1313) ~[spring-boot-2.4.4.jar:2.4.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302) ~[spring-boot-2.4.4.jar:2.4.4]
+	at com.cognizant.springlearn.SpringLearnApplication.main(SpringLearnApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.4.4.jar:2.4.4]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'departmentService': Unsatisfied dependency expressed through field 'departmentDAO'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'departmentDAO' defined in file [C:\Users\admin\eclipse-workspace\spring-learn3\spring-learn\target\classes\com\cognizant\springlearn\dao\DepartmentDAO.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.cognizant.springlearn.dao.DepartmentDAO]: Constructor threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeList' defined in class path resource [employee.xml]: Cannot resolve reference to bean 'e1' while setting constructor argument with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'e1' defined in class path resource [employee.xml]: Error setting property values; nested exception is org.springframework.beans.PropertyBatchUpdateException; nested PropertyAccessExceptions (1) are:
+PropertyAccessException 1: org.springframework.beans.MethodInvocationException: Property 'salary' threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Type mismatch: cannot convert from BigDecimal to double
+
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657) ~[spring-beans-5.3.5.jar:5.3.5]
+	... 26 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'departmentDAO' defined in file [C:\Users\admin\eclipse-workspace\spring-learn3\spring-learn\target\classes\com\cognizant\springlearn\dao\DepartmentDAO.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.cognizant.springlearn.dao.DepartmentDAO]: Constructor threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeList' defined in class path resource [employee.xml]: Cannot resolve reference to bean 'e1' while setting constructor argument with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'e1' defined in class path resource [employee.xml]: Error setting property values; nested exception is org.springframework.beans.PropertyBatchUpdateException; nested PropertyAccessExceptions (1) are:
+PropertyAccessException 1: org.springframework.beans.MethodInvocationException: Property 'salary' threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Type mismatch: cannot convert from BigDecimal to double
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1316) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657) ~[spring-beans-5.3.5.jar:5.3.5]
+	... 40 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.cognizant.springlearn.dao.DepartmentDAO]: Constructor threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeList' defined in class path resource [employee.xml]: Cannot resolve reference to bean 'e1' while setting constructor argument with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'e1' defined in class path resource [employee.xml]: Error setting property values; nested exception is org.springframework.beans.PropertyBatchUpdateException; nested PropertyAccessExceptions (1) are:
+PropertyAccessException 1: org.springframework.beans.MethodInvocationException: Property 'salary' threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Type mismatch: cannot convert from BigDecimal to double
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:225) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1308) ~[spring-beans-5.3.5.jar:5.3.5]
+	... 51 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeList' defined in class path resource [employee.xml]: Cannot resolve reference to bean 'e1' while setting constructor argument with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'e1' defined in class path resource [employee.xml]: Error setting property values; nested exception is org.springframework.beans.PropertyBatchUpdateException; nested PropertyAccessExceptions (1) are:
+PropertyAccessException 1: org.springframework.beans.MethodInvocationException: Property 'salary' threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Type mismatch: cannot convert from BigDecimal to double
+
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:342) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:113) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveManagedList(BeanDefinitionValueResolver.java:428) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:173) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:707) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:198) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1354) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.5.jar:5.3.5]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.5.jar:5.3.5]
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:144) ~[spring-context-5.3.5.jar:5.3.5]
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:85) ~[spring-context-5.3.5.jar:5.3.5]
+	at com.cognizant.springlearn.dao.DepartmentDAO.<init>(DepartmentDAO.java:23) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:212) ~[spring-beans-5.3.5.jar:5.3.5]
+	... 53 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'e1' defined in class path resource [employee.xml]: Error setting property values; nested exception is org.springframework.beans.PropertyBatchUpdateException; nested PropertyAccessExceptions (1) are:
+PropertyAccessException 1: org.springframework.beans.MethodInvocationException: Property 'salary' threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Type mismatch: cannot convert from BigDecimal to double
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1726) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1434) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:353) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:330) ~[spring-beans-5.3.5.jar:5.3.5]
+	... 77 common frames omitted
+Caused by: org.springframework.beans.PropertyBatchUpdateException: Failed properties: Property 'salary' threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Type mismatch: cannot convert from BigDecimal to double
+
+	at org.springframework.beans.AbstractPropertyAccessor.setPropertyValues(AbstractPropertyAccessor.java:135) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.AbstractPropertyAccessor.setPropertyValues(AbstractPropertyAccessor.java:79) ~[spring-beans-5.3.5.jar:5.3.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1722) ~[spring-beans-5.3.5.jar:5.3.5]
+	... 83 common frames omitted
+
+2021-04-13 10:29:51.046  INFO 13012 --- [restartedMain] c.c.springlearn.SpringLearnApplication   : Starting SpringLearnApplication using Java 11.0.9 on DESKTOP-B5T7CP3 with PID 13012 (C:\Users\admin\eclipse-workspace\spring-learn3\spring-learn\target\classes started by admin in C:\Users\admin\eclipse-workspace\spring-learn3\spring-learn)
+2021-04-13 10:29:51.046 DEBUG 13012 --- [restartedMain] c.c.springlearn.SpringLearnApplication   : Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-04-13 10:29:51.047  INFO 13012 --- [restartedMain] c.c.springlearn.SpringLearnApplication   : No active profile set, falling back to default profiles: default
+2021-04-13 10:29:51.639  INFO 13012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9092 (http)
+2021-04-13 10:29:51.640  INFO 13012 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-13 10:29:51.641  INFO 13012 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-13 10:29:51.696  INFO 13012 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-04-13 10:29:51.696  INFO 13012 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 644 ms
+2021-04-13 10:29:51.715  INFO 13012 --- [restartedMain] c.c.springlearn.dao.DepartmentDAO        : Start DepartmentDAO constructor
+2021-04-13 10:29:51.808  INFO 13012 --- [restartedMain] c.cognizant.springlearn.dao.EmployeeDAO  : Start EmployeeDAO Constructor
+2021-04-13 10:29:51.875  INFO 13012 --- [restartedMain] c.cognizant.springlearn.dao.EmployeeDAO  : Stop EmployeeDAO Constructor
+2021-04-13 10:29:51.952  INFO 13012 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 10:29:52.022  INFO 13012 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-13 10:29:52.037  INFO 13012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9092 (http) with context path ''
+2021-04-13 10:29:52.041  INFO 13012 --- [restartedMain] c.c.springlearn.SpringLearnApplication   : Started SpringLearnApplication in 1.11 seconds (JVM running for 3232.624)
+2021-04-13 10:29:52.043  INFO 13012 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-04-13 10:33:14.685  INFO 11272 --- [main] c.c.s.SpringLearnApplicationTests        : Starting SpringLearnApplicationTests using Java 11.0.9 on DESKTOP-B5T7CP3 with PID 11272 (started by admin in C:\Users\admin\eclipse-workspace\spring-learn3\spring-learn)
+2021-04-13 10:33:14.689 DEBUG 11272 --- [main] c.c.s.SpringLearnApplicationTests        : Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-04-13 10:33:14.692  INFO 11272 --- [main] c.c.s.SpringLearnApplicationTests        : No active profile set, falling back to default profiles: default
+2021-04-13 10:33:17.650  INFO 11272 --- [main] c.c.springlearn.dao.DepartmentDAO        : Start DepartmentDAO constructor
+2021-04-13 10:33:18.387  INFO 11272 --- [main] c.cognizant.springlearn.dao.EmployeeDAO  : Start EmployeeDAO Constructor
+2021-04-13 10:33:18.518  INFO 11272 --- [main] c.cognizant.springlearn.dao.EmployeeDAO  : Stop EmployeeDAO Constructor
+2021-04-13 10:33:19.840  INFO 11272 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 10:33:20.814  INFO 11272 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-04-13 10:33:20.815  INFO 11272 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-04-13 10:33:20.818  INFO 11272 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2021-04-13 10:33:20.868  INFO 11272 --- [main] c.c.s.SpringLearnApplicationTests        : Started SpringLearnApplicationTests in 7.396 seconds (JVM running for 11.887)
+2021-04-13 10:33:22.261  INFO 11272 --- [main] c.c.s.controller.EmployeeController      : Start getAllEmployees
+2021-04-13 10:33:22.266  INFO 11272 --- [main] c.c.springlearn.service.EmployeeService  : Start getAllEmployees
+2021-04-13 10:33:22.267  INFO 11272 --- [main] c.cognizant.springlearn.dao.EmployeeDAO  : Start getAllEmployees
+2021-04-13 10:33:23.059  INFO 11272 --- [main] c.c.s.controller.EmployeeController      : Start updateEmployees
+2021-04-13 10:33:23.060  INFO 11272 --- [main] c.c.springlearn.service.EmployeeService  : Start updateEmployees
+2021-04-13 10:33:23.063  INFO 11272 --- [main] c.cognizant.springlearn.dao.EmployeeDAO  : Start updateEmployees
+2021-04-13 10:33:23.064 DEBUG 11272 --- [main] c.cognizant.springlearn.dao.EmployeeDAO  : EmployeeEmployee [id=5, name=Michelle, salary=15000.0, permanent=false, dateOfBirth=1993-05-01, department=Department [id=4, name=Sales]] Updated
+2021-04-13 10:33:23.065  INFO 11272 --- [main] c.cognizant.springlearn.dao.EmployeeDAO  : Stop updateEmployees
+2021-04-13 10:33:23.262  INFO 11272 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
